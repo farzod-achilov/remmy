@@ -1,0 +1,42 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+}
+.nav,
+.nav-doctors,
+.nav-patients {
+  color: #071330;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.nav-patients {
+  margin-left: 64px;
+}
+
+.nav-doctors {
+  margin-left: 40px;
+}
+.main-header-nav {
+  background-color: #fff;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
