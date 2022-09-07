@@ -14,44 +14,37 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header>
+    <header class="header">
       <div class="container">
-        <ul class="heaeder__nav">
-          <li>
-            <h1>
-              <a class="logo" href="/"
-              ><img src="./img/logo.svg" alt="logo" />
-              <span class="visually-hidden">Remmy</span>
-            </a>
-          </h1>
-          <nav class="heaeder__nav--nav nav">
-            </li>
-            <li>
-              <a class="nav__patients nav__link" href="#for-patients">For Patients</a>
-            </li>
-            <li>
-              <a class="nav__doctors nav__link" href="#for-doctors">For Doctors</a>
-            </li>
-            <li><a class="btn btn-primary" href="#">Request Invite</a></li>
-          </nav>
-        </ul>
+        <div class="header__inner">
+          <img src="./img/logo.svg" alt="logo">
+        <nav class="header__nav">
+          <ul class="header__navlist nav">
+            <li class="nav__patients"><a href="#for-patients"></a>For Patients</li>
+            <li class="nav__doctors"><a href="#for-doctors" >For Doctors</a></li>
+          </ul>
+        </nav>
+        <div class="header__btn-wrapper">
+          <a href="#btn" class="btn btn-primary">Request Invite</a>
+        </div>
+        </div>
       </div>
     </header>
     <main>
       <section class="section">
         <div class="container">
-          <div class="main-header__inner">
-            <div class="main-header-content">
-              <h2 class="main-header">
+          <div class="header-section">
+            <div class="header-section__content">
+              <h2 class="header-section__title">
                 Finally get the answers needed for healthy skin
               </h2>
-              <p class="p main-subtitle">
+              <p class="p header-section__subtitle">
                 Remmy helps you uncover the most effective skin care treatments
                 by letting you test and track products with others.
               </p>
               <a class="btn btn-secondory" href="#">Request Invite</a>
             </div>
-            <div class="main-header-img">
+            <div class="header-section__img">
               <img src="./img/head-img.png" alt="main-header-img" />
             </div>
           </div>

@@ -1,17 +1,10 @@
-.container {
-  max-width: 1100px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 * {
   box-sizing: border-box;
 }
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -29,7 +22,6 @@ body {
 .section {
   padding: 50px 0;
 }
-
 li {
   list-style-type: none;
 }
@@ -84,61 +76,10 @@ a {
 .nav-link:focus {
   border-bottom: 1px solid #071330;
 }
-
 .nav-link:active {
   opacity: 0.6;
   border-bottom: 1px solid #071330;
 }
-
 .btn-secondory {
   padding: 18px 30px;
 }
-
-.header .header__inner {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 15px 0;
-}
-.header .header__navlist {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-.header .nav .nav__patients {
-  padding-left: 64px;
-  padding-right: 40px;
-}
-.header .header__btn-wrapper {
-  margin-left: auto;
-}
-
-.header-section {
-  display: flex;
-}
-.header-section .header-section__content {
-  padding: 67px 0 24px 0;
-}
-.header-section .header-section__title {
-  margin: 0;
-  max-width: 460px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 43px;
-  line-height: 50px;
-  color: #071330;
-}
-.header-section .header-section__subtitle {
-  margin: 0;
-  max-width: 450px;
-  padding-top: 81px;
-  padding-bottom: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #071330;
-}/*# sourceMappingURL=main.css.map */
