@@ -18,19 +18,19 @@
   padding: 0;
 }
 .header__nav,
-.nav-doctors,
-.nav-patients {
+.nav__doctors,
+.nav__patients {
   color: #071330;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
 }
 
-.nav-patients {
+.nav__patients {
   margin-left: 64px;
 }
 
-.nav-doctors {
+.nav__doctors {
   margin-left: 40px;
 }
 .header {
