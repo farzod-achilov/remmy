@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-.nav {
+.header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,11 +13,11 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.nav {
+.header__nav {
   margin: 0;
   padding: 0;
 }
-.nav,
+.header__nav,
 .nav-doctors,
 .nav-patients {
   color: #071330;
@@ -33,10 +33,11 @@
 .nav-doctors {
   margin-left: 40px;
 }
-.main-header-nav {
+.header {
   background-color: #fff;
   position: sticky;
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 70;
 }
